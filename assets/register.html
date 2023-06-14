@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="assets/css/register.css">
+    
+    <title>Register</title>
+  </head>
+  <body>
+    <div class="background">
+      <div class="login-background">
+        <div class="back-arrow" id="backArrow"></div>
+        <div class="userphotoback">
+          <div class="userphoto"></div>
+        </div>
+        <h1 class="welcome">Sign In</h1>
+        <form class="login-form" id="register-form">
+          <input class="username-input" placeholder="Username" type="text" id="newuser" required><br>
+          <input class="username-input" placeholder="Password" type="password" id="newpass" required><br>
+          <input class="username-input" placeholder="Confirm Password" type="password" id="newconf" required><br>
+          <div class='cred' id="passcred"><h1 id="h1credentials">* Passwords don't match</h1></div>
+          <div class="agree-terms-background">
+            <label for="termsCheckbox">
+              <input class="checkinput" type="checkbox" id="termsCheckbox">
+              I agree to the terms and conditions
+            </label>
+          </div>
+          
+          <button class='botaoenv' type="submit" id="botaoenv">Continue</button>
+        </form>
+      </div>
+      
+    </div>
+    
+
+    <script src="assets/js/register.js"></script>
+  </body>
+</html>
